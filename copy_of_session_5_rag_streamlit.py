@@ -37,8 +37,8 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.chains import ConversationalRetrievalChain
 from langchain.memory import ConversationBufferMemory
 
-from google.colab import userdata
-os.environ["GOOGLE_API_KEY"] = userdata.get("GOOGLE_API_KEY")
+#from google.colab import userdata
+#os.environ["GOOGLE_API_KEY"] = userdata.get("GOOGLE_API_KEY")
 
 # Commented out IPython magic to ensure Python compatibility.
 
